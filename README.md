@@ -14,6 +14,21 @@ The entire project is written in Python 3.8. Use the same for error-free compila
 ```
 
 ```
+The CNN uses a sequential model and has 10 layers and their structure is as follows
+  layers.experimental.preprocessing.Rescaling(1./255, input_shape=(img_height, img_width, 3)),
+  layers.Conv2D(16, 3, padding='same', activation='relu'),
+  layers.MaxPooling2D(),
+  layers.Conv2D(32, 3, padding='same', activation='relu'),
+  layers.MaxPooling2D(),
+  layers.Conv2D(64, 3, padding='same', activation='relu'),
+  layers.MaxPooling2D(),
+  layers.Flatten(),
+  layers.Dense(128, activation='relu'),
+  layers.Dense(num_classes)
+```
+
+```
+# Code starts from below
 import matplotlib.pyplot as plt
 import numpy as np
 import os
