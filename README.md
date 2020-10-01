@@ -6,6 +6,12 @@ Run the code directly in colab using the below link
 
 <a href="https://colab.research.google.com/github/revanth-reddy/mask-detector-cnn/blob/master/mask.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+```
+
+If running in local machine, make sure that you have matplotlib, numpy, PIL and tensorflow pre-installed in your system.
+The entire project is written in Python 3.8. Use the same for error-free compilation.
+
+```
 
 ```
 import matplotlib.pyplot as plt
