@@ -1,3 +1,9 @@
+# Mask Detector CNN
+
+```
+Run the code directly in colab using the below link
+```
+
 <a href="https://colab.research.google.com/github/revanth-reddy/mask-detector-cnn/blob/master/mask.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
