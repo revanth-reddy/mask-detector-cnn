@@ -28,6 +28,7 @@ The CNN uses a sequential model and has 10 layers and their structure is as foll
 ```
 
 ```
+# Code starts from below
 import matplotlib.pyplot as plt
 import numpy as np
 import os
